@@ -17,10 +17,16 @@
 <body>
     <header>
         <div class="logo">
-            <img src="img/INTERGALAXEN-logo-light-mode.png" alt="">
+            <img src="img/INTERGALAXEN-logo-light-mode.png" alt="INTERGALAXEN logo" id="logo">
         </div>
         <button class="nav-toggle" aria-label="Toggle navigation">
             <span class="hamburger"></span>
+        </button>
+        <button id="dark-mode-toggle" class="dark-mode-toggle">
+            <svg width="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+                <path fill="currentColor"
+                    d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z"
+                    transform="translate(-8 -8)" /></svg>
         </button>
         <nav class="nav">
             <ul class="nav__list">
@@ -104,28 +110,28 @@
 
             <!-- Portfolio item 02 -->
             <a href="#" class="portfolio__item">
-                <img src="img/AlfridaWestberg.jpg" alt="" class="portfolio__img">
+                <img src="img/canvas-game.jpg" alt="" class="portfolio__img">
             </a>
 
             <!-- Portfolio item 03 -->
             <a href="#" class="portfolio__item">
-                <img src="img/AlfridaWestberg.jpg" alt="" class="portfolio__img">
+                <img src="img/canvas-game.jpg" alt="" class="portfolio__img">
             </a>
 
             <!-- Portfolio item 04 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/AlfridaWestberg.jpg" alt="" class="portfolio__img">
-            </a>
+            <!-- <a href="#" class="portfolio__item">
+                <img src="img/canvas-game.jpg" alt="" class="portfolio__img">
+            </a> -->
 
             <!-- Portfolio item 05 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/AlfridaWestberg.jpg" alt="" class="portfolio__img">
-            </a>
+            <!-- <a href="#" class="portfolio__item">
+                <img src="img/canvas-game.jpg" alt="" class="portfolio__img">
+            </a> -->
 
             <!-- Portfolio item 06 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/AlfridaWestberg.jpg" alt="" class="portfolio__img">
-            </a>
+            <!-- <a href="#" class="portfolio__item">
+                <img src="img/canvas-game.jpg" alt="" class="portfolio__img">
+            </a> -->
         </div>
     </section>
 
@@ -149,7 +155,7 @@
                 </a>
             </li>
             <li class="social-list__item">
-                <a href="https://github.com/Intergalaxen" class="social-list__link">
+                <a href="https://github.com/Intergalaxen" class="social-list__link" target="blank">
                     <i class="fab fa-github"></i>
                 </a>
             </li>
@@ -157,5 +163,6 @@
     </footer>
 
     <script src="js/index.js"></script>
+    <script src="js/darkmode.js"></script>
 </body>
 </html>
