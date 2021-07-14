@@ -15,7 +15,7 @@
     --clr-dark: #000000ee;
     --clr-primary: #f4f4f4;
     --clr-secondary: #627db8b6;
-    --clr-accent: linear-gradient(65deg, rgba(0, 82, 107, 0.884) 0%, rgb(127, 126, 180) 100%);
+    --clr-accent: linear-gradient(65deg, hsl(200, 60%, 30%) 0%, hsl(230, 40%, 70%) 100%);
 
     --forground: var(--clr-dark);
     --background: var(--clr-light);
@@ -43,9 +43,9 @@
 .darkmode {
     --clr-light: #fff;
     --clr-dark: #000000f8;
-    --clr-primary: #2b2b2b;
+    --clr-primary: #333;
     --clr-secondary: #25192bb6;
-    --clr-accent: linear-gradient(320deg, rgba(120, 187, 214, 0.712) 0%, rgba(53, 37, 83, 0.815) 100%);
+    --clr-accent: linear-gradient(320deg, hsl(200, 50%, 65%) 0%, hsl(260, 40%, 25%) 100%);
 
     --forground: var(--clr-light);
     --background: var(--clr-dark);
@@ -69,9 +69,9 @@
 
 /* General styles */
 
-/* html { 
+html { 
     scroll-behavior: smooth;
-} */
+}
 
 body {
     background: var(--background);
@@ -287,6 +287,8 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    background: var(--clr-primary);
+    overflow: hidden;
 }
 
 .section__subtitle--intro {
@@ -451,7 +453,7 @@ header {
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
-    opacity: .5;
+    opacity: .7;
 }
 @media (min-width: 600px) {
     .portfolio {
@@ -521,6 +523,8 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
 
 
