@@ -13,10 +13,6 @@ const disableDarkMode = () => {
   document.querySelector("#logo").src = "img/INTERGALAXEN-logo-light-mode.png";
 };
 
-// const changeLogo = () => {
-    
-// }
-
 if(darkMode === "enabled") {
     enableDarkMode();
 }
